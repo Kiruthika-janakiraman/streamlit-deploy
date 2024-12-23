@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "intent": "greet",
+      "patterns": ["hello", "hi", "greetings", "hey"],
+      "response": "Hello! How can I assist you with your legal queries today?"
+    },
+    {
+      "intent": "legal_advice",
+      "patterns": ["legal advice", "help with law", "law query"],
+      "response": "Sure, please provide more details about your legal question."
+    },
+    {
+      "intent": "case_status",
+      "patterns": ["case status", "update on my case"],
+      "response": "Could you please provide your case number for further assistance?"
+    },
+    {
+      "intent": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "response": "Goodbye! Feel free to return if you have more questions."
+    },
+    {
+      "intent": "unknown",
+      "patterns": [],
+      "response": "I'm not sure how to answer that. Could you please rephrase your question?"
+    }
+  ]
+}
